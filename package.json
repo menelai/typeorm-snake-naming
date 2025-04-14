@@ -43,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/menelai/nestjs-tools.git"
+    "url": "git+https://github.com/menelai/typeorm-snake-naming.git"
   },
   "bugs": {
-    "url": "https://github.com/menelai/nestjs-tools/issues"
+    "url": "https://github.com/menelai/typeorm-snake-naming/issues"
   },
   "files": [
     "dist/**/*",
