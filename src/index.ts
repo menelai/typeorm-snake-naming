@@ -1,7 +1,7 @@
 import {NamingStrategyInterface, Table} from 'typeorm';
-import {SnakeNamingStrategy as SnS} from 'typeorm-naming-strategies';
+import {SnakeNamingStrategy as StnS} from 'typeorm-naming-strategies';
 
-export class SnakeNamingStrategy extends SnS implements NamingStrategyInterface {
+export class SnakeNamingStrategy extends StnS implements NamingStrategyInterface {
   primaryKeyName(tableOrName: Table | string, columnNames: string[]): string {
     const tableName = typeof tableOrName === 'string' ? tableOrName : tableOrName.name;
     const name = columnNames.reduce((name, column) => `${name}__${column}`, `${tableName}`);
