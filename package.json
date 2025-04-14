@@ -1,6 +1,6 @@
 {
   "name": "@kovalenko/typeorm-snake-naming",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Custom typeORM naming strategy",
   "author": "kovalenko@gmail.com",
   "license": "MIT",
