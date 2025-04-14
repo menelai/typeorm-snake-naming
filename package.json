@@ -1,0 +1,62 @@
+{
+  "name": "@kovalenko/typeorm-snake-naming",
+  "version": "0.0.0",
+  "description": "Custom typeORM naming strategy",
+  "author": "kovalenko@gmail.com",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "build": "npx tsc && npx tsc-alias",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "typeorm-naming-strategies": "^4.1.0"
+  },
+  "peerDependencies": {
+    "typeorm": "^0.3.22"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^2.13.0",
+    "@types/node": "^22.14.1",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "eslint-import-resolver-typescript": "^4.2.5",
+    "eslint-plugin-import": "^2.31.0",
+    "rimraf": "^6.0.1",
+    "source-map-support": "^0.5.20",
+    "ts-loader": "^9.2.3",
+    "ts-node": "^10.0.0",
+    "tsc-alias": "^1.8.15",
+    "tsconfig-paths": "4.0.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^9.0.1",
+    "semantic-release": "^19.0.2",
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menelai/nestjs-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/menelai/nestjs-tools/issues"
+  },
+  "files": [
+    "dist/**/*",
+    "package.json",
+    "package-lock.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
